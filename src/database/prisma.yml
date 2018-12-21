@@ -1,0 +1,5 @@
+endpoint: https://eu1.prisma.sh/ruben/database/dev
+datamodel: datamodel.prisma
+hooks:
+  post-deploy:
+    - graphql get-schema
